@@ -1,0 +1,171 @@
+
+body {
+    background-image: url(img/descargados.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 100px;
+    border: solid 1px blue;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav {
+    display: inline;
+    width: 100px;
+    border: solid 1px red;
+    margin: 1px;
+    padding: 1px;
+    font-size: 25px;
+}
+
+a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+h1 {
+    color:blue;
+    background-color: rgba(195, 219, 170, 0.527);
+    text-align: center;
+    font-style: unset;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    text-align: center;
+    color: yellow;
+}
+
+p {
+    color:rgb(44, 40, 40);
+    background-color: rgba(236, 234, 204, 0.63);
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h4 {
+    color: blue;
+    background-color: rgb(245, 200, 116);
+}
+
+form {
+    background-color: rgba(240, 238, 238, 0.432);
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+    width: 330px;
+    border: solid 1px salmon;
+}
+
+/* Flex Box en el "index" */
+
+.section-index {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.article-index {
+    flex: 0 0 200px,
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+}
+
+.article-index img {
+    max-width: 100%;
+}
+
+.article-index .texto {
+    padding: 0px 20px 20px;
+}
+
+.article-index .texto  button {
+    background: gray;
+    border: 0;
+    color:white;
+    padding: 10px;
+    width: 100%;
+}
+
+/* "autores.html" */
+
+.section-autores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    max-height: 200vh;
+}
+
+.article-autores {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+
+.article-autores img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.article-autores button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+/* "libros.html" */
+
+.section-stock {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    max-height: 200vh;
+}
+
+.article-stock {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+
+.article-stock img {
+    max-width: 100%;
+}
+
+.article-stock .texto-stock {
+    padding: 0 20px 20px;
+}
+
+.article-stock .texto-stock button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+
